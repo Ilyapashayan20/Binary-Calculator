@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Binary Calculator</h1>
+            <h2 style="text-align:center;" id="resultDOM">RESULT</h2>
+        <div class="form">
+            <div>
+                <input placeholder="" id="numbers" type="number" >
+                <button onclick="calc()" class="calc">Calc</button>
+            </div>
+            <div class="numbers">
+                <button onclick="zero(0)" class="number">0</button>
+                <button onclick="one(1)" class="number">1</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
